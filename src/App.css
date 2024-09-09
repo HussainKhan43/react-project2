@@ -3,6 +3,11 @@
   margin: 0px;
 }
 
+#nav-bar{
+  top: 0px;
+  position: sticky;
+  z-index: 1;
+}
 .hero-part h1{
   color: #fff;
   font-size: 54px;
@@ -141,6 +146,7 @@
 
 /* home page */
 @media only screen and (max-width: 768px) {
+  
     img{
       max-width: 100%;
     }

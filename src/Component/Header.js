@@ -10,7 +10,7 @@ import logo from '../assets/img/logo.png.webp';
 function Header() {
   return (
       <>
-       <Navbar expand="lg" className=" bg-body-tertiary">
+       <Navbar expand="lg" className="bg-body-tertiary" id="nav-bar">
       <Container>
         <Navbar.Brand href="#"><img src={logo} alt=''/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
