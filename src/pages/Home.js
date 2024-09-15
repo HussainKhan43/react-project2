@@ -56,7 +56,7 @@ function Home() {
               <img
                 src={hero}
                 alt=""
-                style={{ height: "650px" }}
+                id="hero-img"
                 className="img-fluid"
               />
             </Col>

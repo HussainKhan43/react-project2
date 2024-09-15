@@ -15,7 +15,9 @@
   line-height: 1.2;
   padding-top: 140px;
 }
-
+#hero-img{
+  height: 650px;
+}
 .hero-part p{
   color: whitesmoke;
     font-size: 18px;
@@ -150,6 +152,9 @@
     img{
       max-width: 100%;
     }
+    #hero-img{
+      height: 450px;
+    }
     .course-part img{
       height: 250px;
     }
@@ -168,6 +173,9 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   img{
     max-width: 100%;
+  }
+  #hero-img{
+    height: 650px;
   }
   .gallery-part img{
     height: 480px;
